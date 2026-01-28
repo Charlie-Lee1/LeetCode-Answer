@@ -19,4 +19,5 @@ class Solution(object):
         b=(num%1000)//100
         c=(num%100)//10
         d=num%10
+
         return thousandth[a]+hundredth[b]+tenth[c]+oneth[d]
